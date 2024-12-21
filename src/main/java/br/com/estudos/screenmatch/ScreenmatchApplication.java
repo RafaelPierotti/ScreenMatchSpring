@@ -18,8 +18,8 @@ public class ScreenmatchApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-//		Principal principal = new Principal();
-//		principal.exibeMenu();
+		Principal principal = new Principal();
+		principal.exibeMenu();
 
 
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm:ss");
